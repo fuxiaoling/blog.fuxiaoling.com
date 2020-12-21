@@ -1,0 +1,155 @@
+@import "variable.stylus"
+.content
+  font-family Microsoft Yahei
+  padding 30px 0
+  >>> code
+    background #f5f5f5
+    padding 5px 10px
+    border-radius 5px
+  >>> pre
+    > code
+      margin 20px 0
+      background $color
+      padding 30px 0
+      border-radius 5px
+  >>> .code-line-number
+    display inline-block
+    width 50px
+    text-align right
+    border-right 1px solid #848484
+    padding-right 5px
+    margin-right 15px
+    color #b9b5b8
+    .hljs-number,
+    .hljs-comment
+      color #b9b5b8
+  >>> img
+    max-width 100%
+    display block
+    margin 0 auto
+    height auto
+  >>> embed
+    max-width 100%
+    margin 10px auto
+    display block
+  >>> a
+    color $hoverColor
+    text-decoration underline
+  >>> p
+    font-size 16px
+    line-height 32px
+    text-align justify
+    word-break break-all
+    margin 20px 0
+  >>> p a,
+  >>> p a span
+    padding 0
+    color $hoverColor
+  >>> h1,
+  >>> h2,
+  >>> h3,
+  >>> h4,
+  >>> h5,
+  >>> h6
+    margin 10px 0
+    padding 0 20px
+    font-weight 700
+    position relative
+    display inline-block
+    font-family Microsoft Yahei
+  >>> h1:before,
+  >>> h2:before,
+  >>> h3:before,
+  >>> h4:before,
+  >>> h5:before,
+  >>> h6:before
+    content: '■'
+    position absolute
+    left -1px
+    top -2px
+    color $color
+  >>> h1
+    font-size 1.3rem
+    line-height 1.8rem
+    padding 0 22px
+  >>> h2
+    font-size 1.2rem
+    line-height 1.6rem
+    padding 0 20px
+  >>> h3
+    font-size 1.1rem
+    line-height 1.4rem
+    padding 0 18px
+  >>> h4
+    font-size 1.0rem
+    line-height 1.2rem
+    padding 0 16px
+  >>> h5
+    font-size 0.9rem
+    line-height 1.2rem
+    padding 0 14px
+  >>> h6
+    font-size 0.8rem
+    line-height 1.2rem
+    padding 0 12px
+  >>> hr
+    border 0
+    display block
+    margin 50px 0
+  >>> hr:before
+    content ''
+    display inline-block
+    position relative
+    left 0
+    top -15px
+    width 100%
+    height 1px
+    background #ededed
+  >>> ol,
+  >>> ul
+    margin 20px 0
+    padding 10px 40px
+    // background #fafafa
+    line-height 32px
+  >>> ol li
+    list-style-type decimal
+  >>> ul li
+    list-style-type disc
+  >>> ol p,
+  >>> ul p
+    margin 0
+  >>> table
+    margin 20px 0
+    border 1px solid #e6e9ed
+    font-size 14px
+    border-collapse collapse
+    border-spacing .06rem
+    width 100%
+  >>> th
+    font-size .8rem
+    font-weight 700
+  >>> th,
+  >>> td
+    border 1px solid #e6e9ed
+    padding 12px 6px
+  >>> dl
+    margin 0 20px
+  >>> dt
+    font-weight 700
+  >>> dd
+    margin 0 0 20px
+  >>> div.img
+    overflow hidden
+  >>> div.img br
+    display none
+  >>> div.img img
+    width 100%
+    margin auto
+  >>> div.img_3 img
+    width 33.333333%
+    float left
+    margin 0
+  >>> div.img_2 img
+    width 50%
+    float left
+    margin 0

@@ -1,11 +1,14 @@
-import Vue from "vue";
-import Vuex from "vuex";
-
-Vue.use(Vuex);
-
+import Vue from "vue"
+import Vuex from "vuex"
+import system from './system'
+import { modules, plugins } from './utils'
+import loading from '@/plugins/loading/storePlugin'
+Vue.use(Vuex)
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {}
-});
+  ...system,
+  modules: modules(),
+  plugins: [
+    ...plugins(),
+    loading
+  ]
+})
