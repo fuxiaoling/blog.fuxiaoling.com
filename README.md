@@ -1,24 +1,23 @@
 # blog.fuxiaoling.com
+基于VUE的个人独立博客，我的个人独立博客的VUE前台工程，后台服务基于WP的REST API + JWT + 应用认证实现。
 
-## Project setup
-```
-npm install
-```
+设计和代码都属原创，使用时请署名。
 
-### Compiles and hot-reloads for development
+预览：[blog.fuxiaoling.com]((http://blog.fuxiaoling.com))
+
+## 使用
+- 关注《【WordPress】用VUE开发WP博客》系列文章，地址：http://blog.fuxiaoling.com/#/series/wordpress-blog-base-vue/?seriesId=70
+
+## 启动
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## 构建
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## License
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[MIT](LICENSE)
