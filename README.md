@@ -3,7 +3,7 @@
 
 设计和代码都属原创，使用时请署名。
 
-预览：[blog.fuxiaoling.com]((http://blog.fuxiaoling.com))
+预览：[http://blog.fuxiaoling.com]((http://blog.fuxiaoling.com))
 
 ## 使用
 - 关注《【WordPress】用VUE开发WP博客》系列文章，地址：http://blog.fuxiaoling.com/#/series/wordpress-blog-base-vue/?seriesId=70
